@@ -4,7 +4,7 @@ import Files
 
 let replacementMark = "<!-- Enter here -->"
 
-guard let feedUrl = URL(string: "https://sourcedesign.co/podcast?format=RSS") else { fatalError("Error: wrong url") }
+guard let feedUrl = URL(string: "https://www.swiftbysundell.com/podcast?format=RSS") else { fatalError("Error: wrong url") }
 guard let feedItems = FeedParser(URL: feedUrl).parse().rssFeed?.items else { fatalError("Error: feed items") }
 
 guard let file = try? File(path: CommandLine.arguments[1]) else { fatalError("Error getting file") }

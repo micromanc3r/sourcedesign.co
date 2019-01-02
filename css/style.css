@@ -942,12 +942,26 @@ a {
   .site-block-27 ul li a, .site-block-27 ul li span {
     text-align: center;
     display: inline-block;
-    width: 40px;
-    height: 40px;
     line-height: 40px;
-    border-radius: 50%;
     border: 1px solid #ccc; }
   .site-block-27 ul li.active a, .site-block-27 ul li.active span {
     background: #f23a2e;
     color: #fff;
     border: 1px solid transparent; }
+
+.page {
+    display: none;
+}
+
+.page-active {
+  display: block;
+  margin-top: 48px;
+}
+
+.first_btn {
+  display: none !important;
+}
+
+.last_btn {
+  display: none !important;
+}

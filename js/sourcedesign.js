@@ -23,7 +23,6 @@
         window.location.hash = hash;
       });
 
-    } // End if
-
+    }
   });
 })(jQuery); // End of use strict
