@@ -1,10 +1,12 @@
 $('.pagination-demo').twbsPagination({
+//<!-- Enter here -->
 totalPages: 2,
+//<!-- Enter here -->
 // the current page that show on start
 startPage: 1,
 
 // maximum visible pages
-visiblePages: 2,
+visiblePages: 6,
 
 initiateStartPageClick: true,
 
